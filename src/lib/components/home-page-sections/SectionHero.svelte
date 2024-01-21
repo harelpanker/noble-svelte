@@ -1,6 +1,12 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+	import { animate } from 'motion';
 	import Button from '$lib/ui/Button.svelte';
 	import hero from '$lib/assets/images/home-page/hero.png';
+
+	onMount(() => {
+		animate('h1', { y: [40, 0], opacity: [0, 1] }, { duration: 1 });
+	});
 </script>
 
 <section class="px-5 lg:px-8 relative pt-6 lg:pt-28 text-center lg:text-left">
@@ -9,7 +15,7 @@
 		<div class="flex flex-col items-center lg:items-start lg:flex-row gap-x-10 gap-y-4">
 			<div class="relative shrink-0 w-full max-w-sm">
 				<h1
-					class="text-[2.5rem] font-polysans relative z-20 leading-[1.2] font-semibold lg:text-8xl lg:leading-[1]"
+					class="title text-[2.5rem] font-polysans relative z-20 leading-[1.2] font-semibold lg:text-8xl lg:leading-[1]"
 				>
 					<span class="block">The</span> Support team <span class="block">co-pilot</span>
 				</h1>
