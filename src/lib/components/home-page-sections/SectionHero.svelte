@@ -14,10 +14,10 @@
 					<span class="block">The</span> Support team <span class="block">co-pilot</span>
 				</h1>
 				<div
-					class="absolute top-1/2 lg:top-[36%] lg:w-[25rem] lg:h-[5.2rem] -translate-y-1/2 left-1/2 -translate-x-1/2 rotate-1 w-[18rem] z-10 h-[3.1rem] bg-[#F9D2CB]"
+					class="absolute top-1/2 lg:top-[36%] lg:w-[24rem] lg:h-[5.2rem] -translate-y-1/2 left-1/2 lg:left-[48%] -translate-x-1/2 rotate-1 w-[18rem] z-10 h-[3.1rem] bg-[#F9D2CB]"
 				></div>
 				<div
-					class="hidden lg:block absolute top-[63%] w-[16.5rem] h-[5.2rem] -translate-y-1/2 -left-2 rotate-1 z-10 bg-[#F9D2CB]"
+					class="hidden lg:block absolute top-[63%] w-[15.5rem] h-[5.2rem] -translate-y-1/2 -left-2 rotate-1 z-10 bg-[#F9D2CB]"
 				></div>
 			</div>
 			<div class="flex flex-col justify-between gap-y-10 items-start">
