@@ -26,7 +26,9 @@
 					Slack & Confluence, supercharging your Zendesk into a highly efficient hub for your
 					support team.
 				</p>
-				<div class="hidden lg:block"><Button text="Get Started" /></div>
+				<div class="hidden lg:block">
+					<Button text="Get Started" />
+				</div>
 			</div>
 		</div>
 

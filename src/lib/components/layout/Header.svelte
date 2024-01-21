@@ -10,6 +10,6 @@
 				<img src={logo} alt="logo" />
 			</figure>
 		</a>
-		<Button />
+		<Button isSM />
 	</div>
 </header>
