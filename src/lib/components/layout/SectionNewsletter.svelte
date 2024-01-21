@@ -1,5 +1,6 @@
 <script lang="ts">
 	const email = 'f114260cd0dcb1d8b15c2174079af500';
+	const thankYouPath = 'https://golden-capybara-467f34.netlify.app/thank-you';
 </script>
 
 <section class="bg-black px-5 lg:px-8 pt-4 pb-12 lg:pt-6 lg:pb-10">
@@ -10,7 +11,7 @@
 			action={`https://formsubmit.co/${email}`}
 			method="POST"
 		>
-			<!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
+			<input type="hidden" name="_next" value={thankYouPath} />
 			<input type="hidden" name="form-name" value="subscribe" />
 			<input type="hidden" name="_subject" value="New submission!" />
 			<input type="hidden" name="_captcha" value="false" />
