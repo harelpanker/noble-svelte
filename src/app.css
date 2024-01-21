@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'inter';
+		src: local('inter-variable'), url('/fonts/inter/inter-variable.ttf');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'polysans';
+		src: local('polysans-regular'), url('/fonts/polysans/polysans-regular.otf');
+		font-weight: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'polysans';
+		src: local('polysans-bold'), url('/fonts/polysans/polysans-bold.otf');
+		font-weight: bold;
+		font-display: swap;
+	}
+}
