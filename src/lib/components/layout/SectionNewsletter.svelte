@@ -1,12 +1,21 @@
+<script lang="ts">
+	const email = 'harelpanker@gmail.com';
+</script>
+
 <section class="bg-black px-5 lg:px-8 pt-4 pb-12 lg:pt-6 lg:pb-10">
 	<div class="container max-w-[46rem] mx-auto">
 		<form
 			name="subscribe"
 			class="w-full flex gap-x-4 flex-col md:flex-row gap-y-4"
+			action={`https://formsubmit.co/${email}`}
 			method="POST"
-			data-netlify="true"
 		>
+			<!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
 			<input type="hidden" name="form-name" value="subscribe" />
+			<input type="hidden" name="_subject" value="New submission!" />
+			<input type="hidden" name="_captcha" value="false" />
+			<input type="text" name="_honey" style="display:none" />
+			<!-- email -->
 			<input
 				class="grow h-12 px-3 rounded input placeholder:text-black/85"
 				type="email"
