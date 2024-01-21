@@ -1,6 +1,6 @@
 <script lang="ts">
-	const email = 'f114260cd0dcb1d8b15c2174079af500';
-	const thankYouPath = 'https://golden-capybara-467f34.netlify.app/thank-you';
+	// const email = 'f114260cd0dcb1d8b15c2174079af500';
+	// const thankYouPath = 'https://golden-capybara-467f34.netlify.app/thank-you';
 </script>
 
 <section class="bg-black px-5 lg:px-8 pt-4 pb-12 lg:pt-6 lg:pb-10">
@@ -8,19 +8,19 @@
 		<form
 			name="subscribe"
 			class="w-full flex gap-x-4 flex-col md:flex-row gap-y-4"
-			action={`https://formsubmit.co/${email}`}
 			method="POST"
+			data-netlify="true"
 		>
-			<input type="hidden" name="_next" value={thankYouPath} />
+			<!-- <input type="hidden" name="_next" value={thankYouPath} />
 			<input type="hidden" name="form-name" value="subscribe" />
 			<input type="hidden" name="_subject" value="New submission!" />
 			<input type="hidden" name="_captcha" value="false" />
-			<input type="text" name="_honey" style="display:none" />
+			<input type="text" name="_honey" style="display:none" /> -->
 			<!-- email -->
 			<input
 				class="grow h-12 px-3 rounded input placeholder:text-black/85"
 				type="email"
-				name="'email"
+				name="email"
 				placeholder="Enter your email to stay up to date with our product roadmap"
 				required
 			/>
