@@ -20,7 +20,7 @@
 	>
 		<Badge text={badgeText} />
 		<div class="flex flex-col gap-y-2 lg:gap-y-4 w-full max-w-screen-sm">
-			<h2 class="text-[2rem] leading-[1.2] lg:text-[2.5rem]">
+			<h2 class="text-[2rem] font-polysans leading-[1.2] lg:text-[2.5rem]">
 				{title}
 			</h2>
 			<p class="lg:text-xl">
