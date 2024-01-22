@@ -1,5 +1,6 @@
 <script lang="ts">
-	import Hero from '$lib/components/security-page-sections/SectionHero.svelte';
+	import SectionCards from '$lib/components/security-page-sections/SectionCards.svelte';
+	import SectionHero from '$lib/components/security-page-sections/SectionHero.svelte';
 </script>
 
-<Hero />
+<SectionHero /><SectionCards />
