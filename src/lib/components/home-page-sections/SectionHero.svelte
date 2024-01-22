@@ -41,13 +41,13 @@
 				</div>
 			</div>
 			<div class="flex flex-col justify-between gap-y-10 items-start">
-				<p
-					class="text text-xl max-w-xl font-polysans lg:max-w-full lg:text-[2.5rem] lg:leading-normal"
-				>
-					Zen aggregates critical data from all the tools your support team uses like Salesforce,
-					Slack & Confluence, supercharging your Zendesk into a highly efficient hub for your
-					support team.
-				</p>
+				<div class="max-w-xl lg:max-w-full">
+					<p class="text text-xl w-full font-polysans lg:text-[2.5rem] lg:leading-normal">
+						Zen aggregates critical data from all the tools your support team uses like Salesforce,
+						Slack & Confluence, supercharging your Zendesk into a highly efficient hub for your
+						support team.
+					</p>
+				</div>
 				<div class="hidden button lg:block">
 					<Button text="Get Started" />
 				</div>
@@ -61,3 +61,10 @@
 	</div>
 	<div class="absolute z-10 w-full inset-0 top-auto bg-black h-[28%] md:h-[40%] lg:h-[43%]"></div>
 </section>
+
+<style>
+	.title,
+	.text {
+		font-kerning: none;
+	}
+</style>
