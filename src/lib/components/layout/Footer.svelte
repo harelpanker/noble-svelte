@@ -14,13 +14,12 @@
 		<div
 			class="w-full gap-y-10 max-w-[42.5rem] flex flex-col lg:flex-row lg:justify-between lg:items-end"
 		>
-			<div class="flex flex-col gap-y-10">
-				<div class="flex flex-col gap-y-4">
+			<div class="flex flex-col gap-y-10 lg:gap-y-20">
+				<a href="/">
 					<figure>
 						<img width={132} height={50} src={logo} alt="logo" />
 					</figure>
-					<p>Ⓒ {new Date().getFullYear()} Benga Inc.</p>
-				</div>
+				</a>
 				<ul>
 					<li><FooterLink text="Privacy Policy" /></li>
 				</ul>
@@ -31,7 +30,7 @@
 		</div>
 
 		<!-- right -->
-		<div class="flex gap-x-2">
+		<div class="flex gap-x-2 items-end">
 			<figure><img src={aicpa} alt="aicpa" /></figure>
 			<figure><img src={soc} alt="soc" /></figure>
 		</div>

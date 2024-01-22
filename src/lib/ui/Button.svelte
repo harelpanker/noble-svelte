@@ -9,7 +9,7 @@
 
 <Button.Root
 	{href}
-	class={`${isSM ? 'p-3 text-sm min-h-10' : 'py-[14px] px-5 min-h-14 text-lg'} ${isWhite ? 'text-black bg-white hover:bg-white/85' : 'text-white bg-black hover:bg-black/85'} flex items-center justify-center rounded transition`}
+	class={`${isSM ? 'p-3 text-sm min-h-10' : 'py-[14px] px-5 min-h-14 text-lg'} ${isWhite ? 'text-black bg-white' : 'text-white bg-black'} flex items-center justify-center rounded transition hover:bg-[#D7988D]`}
 >
 	{text}
 </Button.Root>
