@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Button from '$lib/ui/Button.svelte';
 	import hero from '$lib/assets/images/home-page/hero.png';
+	import ModalTrigger from '../layout/modal-unlock/ModalTrigger.svelte';
 </script>
 
 <section class="px-5 lg:px-8 relative pt-6 lg:pt-28 text-center lg:text-left">
@@ -27,7 +27,7 @@
 					support team.
 				</p>
 				<div class="hidden lg:block">
-					<Button text="Get Started" />
+					<ModalTrigger text="Get Started" />
 				</div>
 			</div>
 		</div>
