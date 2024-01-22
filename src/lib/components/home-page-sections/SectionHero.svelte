@@ -7,11 +7,11 @@
 
 	onMount(() => {
 		const splitTitle = new SplitType('.title', { types: 'words', tagName: 'span' });
-		const splitText = new SplitType('.text', { types: 'lines', tagName: 'span' });
-		const heroText = [...(<[]>splitTitle.words), ...(<[]>splitText.lines)];
+		const heroText = [...(<[]>splitTitle.words)];
 
 		timeline([
 			[heroText, { y: [24, 0], opacity: [0, 1] }, { duration: 1, delay: stagger(0.1) }],
+			['.text', { y: [24, 0], opacity: [0, 1] }, { duration: 1 }],
 			['.strip', { x: ['-100%', '0%'] }, { duration: 0.6, delay: stagger(0.1), at: '-1' }],
 			['.button', { opacity: [0, 1] }, { duration: 0.6 }],
 			['.image', { opacity: [0, 1], scale: [0.8, 1] }, { duration: 1, at: '<' }]
@@ -40,14 +40,13 @@
 					<div class="strip w-full h-full bg-[#F9D2CB]"></div>
 				</div>
 			</div>
-			<div class="flex flex-col justify-between gap-y-10 items-start">
-				<div class="max-w-xl lg:max-w-full">
-					<p class="text text-xl w-full font-polysans lg:text-[2.5rem] lg:leading-normal">
-						Zen aggregates critical data from all the tools your support team uses like Salesforce,
-						Slack & Confluence, supercharging your Zendesk into a highly efficient hub for your
-						support team.
-					</p>
-				</div>
+			<div class="flex max-w-xl lg:max-w-full flex-col justify-between gap-y-10 items-start">
+				<p class="text text-xl w-full font-polysans lg:text-[2.5rem] lg:leading-normal">
+					Zen aggregates critical data from all the tools your support team uses like Salesforce,
+					Slack & Confluence, supercharging your Zendesk into a highly efficient hub for your
+					support team.
+				</p>
+
 				<div class="hidden button lg:block">
 					<Button text="Get Started" />
 				</div>
