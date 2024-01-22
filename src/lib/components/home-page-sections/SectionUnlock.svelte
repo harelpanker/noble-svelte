@@ -9,7 +9,7 @@
 </script>
 
 <section
-	class="text-white bg-black text-center lg:text-left px-5 lg:px-8 pt-12 pb-20 lg:pt-24 lg:pb-24"
+	class="text-white border-b-[12px] border-[#0C8CE9] lg:border-b-0 bg-black text-center lg:text-left px-5 lg:px-8 pt-12 pb-20 lg:pt-24 lg:pb-24"
 >
 	<div class="container mx-auto max-w-[65rem] flex flex-col gap-y-10">
 		<h2

@@ -3,7 +3,7 @@
 	import SectionHero from '$lib/components/home-page-sections/SectionHero.svelte';
 	import SectionIntegrate from '$lib/components/home-page-sections/SectionIntegrate.svelte';
 	import SectionUnlock from '$lib/components/home-page-sections/SectionUnlock.svelte';
-	import SectionCta from '$lib/components/layout/SectionCTA.svelte';
+	import SectionCTA from '$lib/components/layout/SectionCTA.svelte';
 	import SectionNewsletter from '$lib/components/layout/SectionNewsletter.svelte';
 </script>
 
@@ -11,5 +11,5 @@
 <SectionUnlock />
 <SectionCards />
 <SectionIntegrate />
-<SectionCta />
+<SectionCTA />
 <SectionNewsletter />

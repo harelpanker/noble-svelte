@@ -5,7 +5,9 @@
 	export let text2: string = '';
 </script>
 
-<li class="flex flex-col gap-y-3 gap-x-6 lg:flex-row lg:items-center p-6 bg-white rounded-lg">
+<li
+	class="flex flex-col text-center gap-y-6 gap-x-6 lg:flex-row lg:text-left items-center p-6 bg-white rounded-lg"
+>
 	<figure class="shrink-0"><img {src} alt="" /></figure>
 	<div class="flex flex-col gap-y-4">
 		<h2 class="text-xl font-semibold">{title}</h2>

@@ -6,7 +6,7 @@
 </script>
 
 <section
-	class="px-5 overflow-hidden lg:px-8 bg-black text-white text-center pt-9 lg:pt-20 border-t-[12px] border-b-[12px] lg:border-t-0 border-[#0C8CE9]"
+	class="px-5 overflow-hidden lg:px-8 bg-black text-white text-center pt-9 lg:pt-20 border-b-[12px] border-[#0C8CE9]"
 >
 	<div class="container max-w-[67rem] mx-auto flex flex-col gap-y-9 lg:gap-y-28">
 		<!-- content -->
