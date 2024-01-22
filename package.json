@@ -34,6 +34,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"bits-ui": "^0.15.1"
+		"bits-ui": "^0.15.1",
+		"motion": "^10.17.0",
+		"split-type": "^0.3.4"
 	}
 }
