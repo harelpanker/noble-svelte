@@ -20,8 +20,8 @@
 					class="hidden lg:block absolute top-[63%] w-[15.5rem] h-[5.2rem] -translate-y-1/2 -left-2 rotate-1 z-10 bg-[#F9D2CB]"
 				></div>
 			</div>
-			<div class="flex flex-col justify-between gap-y-10 items-start">
-				<p class="text-xl max-w-xl font-polysans lg:max-w-full lg:text-[2.5rem] lg:leading-normal">
+			<div class="flex max-w-xl flex-col justify-between lg:max-w-full gap-y-10 items-start">
+				<p class="text-xl font-polysans lg:text-[2.5rem] lg:leading-normal">
 					Zen aggregates critical data from all the tools your support team uses like Salesforce,
 					Slack & Confluence, supercharging your Zendesk into a highly efficient hub for your
 					support team.

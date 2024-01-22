@@ -25,7 +25,7 @@
 				</ul>
 			</div>
 			<ul><li><FooterLink text="Terms & Conditions" /></li></ul>
-			<ul><li><FooterLink text="Security" /></li></ul>
+			<ul><li><FooterLink src="/security" text="Security" /></li></ul>
 			<ul><li><FooterLink text="Services' Uptime" /></li></ul>
 		</div>
 
