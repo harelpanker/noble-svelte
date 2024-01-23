@@ -18,7 +18,7 @@
 	>
 		<!-- form submit inputs start -->
 		<input type="hidden" name="_next" value={thankYouPath} />
-		<input type="hidden" name="form-name" value="subscribe" />
+		<input type="hidden" name="form-name" value="contact" />
 		<input type="hidden" name="_subject" value="New submission!" />
 		<input type="hidden" name="_captcha" value="false" />
 		<input type="text" name="_honey" style="display:none" />
