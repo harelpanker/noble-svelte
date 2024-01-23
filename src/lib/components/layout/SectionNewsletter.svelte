@@ -1,5 +1,5 @@
 <script lang="ts">
-	const email = 'f114260cd0dcb1d8b15c2174079af500';
+	const email = 'harelpanker@protonmail.com';
 	const thankYouPath = 'https://golden-capybara-467f34.netlify.app/thank-you';
 
 	let placeholder = 'Your email address';

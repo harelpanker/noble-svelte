@@ -37,7 +37,7 @@
 			<ListItem
 				icon={icon4}
 				title="Empowering Diverse Skill Levels"
-				text="en enables support engineers, regardless of their experience level, to confidently handle complex support cases, thereby reducing dependence on product/engineering teams."
+				text="kojo enables support engineers, regardless of their experience level, to confidently handle complex support cases, thereby reducing dependence on product/engineering teams."
 			/>
 		</ul>
 
