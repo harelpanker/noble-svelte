@@ -17,7 +17,6 @@
 <section class="bg-black px-5 lg:px-8 pt-4 pb-12 lg:pt-6 lg:pb-10">
 	<div class="container max-w-[46rem] mx-auto">
 		<form
-			name="subscribe"
 			class="w-full flex gap-x-4 flex-col md:flex-row gap-y-4"
 			action={`https://formsubmit.co/${email}`}
 			method="POST"

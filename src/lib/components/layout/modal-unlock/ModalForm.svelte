@@ -11,7 +11,6 @@
 <div class="p-6 lg:p-12 grow">
 	<div class="hidden lg:flex justify-end"><Dialog.Close><X /></Dialog.Close></div>
 	<form
-		name="contact"
 		class="flex flex-col gap-y-3 lg:gap-y-4"
 		action={`https://formsubmit.co/${email}`}
 		method="POST"
