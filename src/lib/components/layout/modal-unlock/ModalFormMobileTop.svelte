@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { Dialog } from 'bits-ui';
 	import { X } from 'phosphor-svelte';
 </script>
