@@ -11,10 +11,10 @@
 <div class="p-6 lg:p-12 grow">
 	<div class="hidden lg:flex justify-end"><Dialog.Close><X /></Dialog.Close></div>
 	<form
-		method="POST"
 		name="contact"
-		action={`https://formsubmit.co/${email}`}
 		class="flex flex-col gap-y-3 lg:gap-y-4"
+		action={`https://formsubmit.co/${email}`}
+		method="POST"
 	>
 		<!-- form submit inputs start -->
 		<input type="hidden" name="_next" value={thankYouPath} />

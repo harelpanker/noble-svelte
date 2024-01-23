@@ -31,7 +31,7 @@
 			<input
 				class="grow h-12 px-3 rounded input placeholder:text-black/85"
 				type="email"
-				name="'email"
+				name="email"
 				{placeholder}
 				required
 			/>
