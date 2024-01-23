@@ -19,10 +19,10 @@
 					</figure>
 				</a>
 				<ul>
-					<li><FooterLink text="Privacy Policy" /></li>
+					<li><FooterLink src="/legal/privacy-policy" text="Privacy Policy" /></li>
 				</ul>
 			</div>
-			<ul><li><FooterLink text="Terms & Conditions" /></li></ul>
+			<ul><li><FooterLink src="/legal/terms-and-conditions" text="Terms & Conditions" /></li></ul>
 			<ul><li><FooterLink src="/security" text="Security" /></li></ul>
 		</div>
 
