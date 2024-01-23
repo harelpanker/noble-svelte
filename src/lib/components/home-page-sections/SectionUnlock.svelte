@@ -13,7 +13,7 @@
 >
 	<div class="container mx-auto max-w-[65rem] flex flex-col gap-y-10">
 		<h2
-			class="text-center text-[2.5rem] leading-[1.2] lg:font-semibold lg:leading-[1.4] lg:text-[4rem]"
+			class="text-center text-[2.5rem] leading-[1.2] font-polysans lg:font-semibold lg:leading-[1.4] lg:text-[4rem]"
 		>
 			<span class="lg:block">Unlock the Full Potential of </span>Your Support Team with Zen
 		</h2>
