@@ -11,7 +11,7 @@
 		<div class="relative">
 			<Typography96>{title}</Typography96>
 			<div
-				class="absolute top-1/2 lg:top-[52%] lg:h-[5.2rem] -translate-y-1/2 left-1/2 lg:left-[50%] -translate-x-1/2 rotate-1 w-[105%] z-10 h-[3.1rem]"
+				class="absolute hidden lg:block top-1/2 lg:top-[52%] lg:h-[5.2rem] -translate-y-1/2 left-1/2 lg:left-[50%] -translate-x-1/2 rotate-1 w-[105%] z-10 h-[3.1rem]"
 			>
 				<div class="bg-[#F9D2CB] w-full h-full"></div>
 			</div>
