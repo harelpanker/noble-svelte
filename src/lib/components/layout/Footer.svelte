@@ -11,9 +11,7 @@
 		class="container max-w-[67rem] mx-auto flex flex-col lg:flex-row gap-y-10 justify-between gap-x-10"
 	>
 		<!-- left -->
-		<div
-			class="w-full gap-y-10 max-w-[42.5rem] flex flex-col lg:flex-row lg:justify-between lg:items-end"
-		>
+		<div class="w-full gap-y-10 max-w-[42.5rem] flex flex-col lg:flex-row lg:gap-x-20 lg:items-end">
 			<div class="flex flex-col gap-y-10 lg:gap-y-20">
 				<a href="/">
 					<figure>
@@ -26,7 +24,6 @@
 			</div>
 			<ul><li><FooterLink text="Terms & Conditions" /></li></ul>
 			<ul><li><FooterLink src="/security" text="Security" /></li></ul>
-			<ul><li><FooterLink text="Services' Uptime" /></li></ul>
 		</div>
 
 		<!-- right -->
