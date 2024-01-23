@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Button from '$lib/ui/Button.svelte';
+	import ModalTrigger from './modal-unlock/ModalTrigger.svelte';
 	import Typography40 from '$lib/ui/Typography40.svelte';
 
 	import bgDesktop from '$lib/assets/images/cta/cta-desktop.svg';
@@ -14,7 +14,7 @@
 			<span class="lg:block">The AI-Powered Game-Changer for </span>
 			Technical Support Engineers
 		</Typography40>
-		<Button isWhite text="Learn more" />
+		<ModalTrigger isWhite text="Learn more" />
 	</div>
 
 	<img

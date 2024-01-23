@@ -12,7 +12,7 @@
 		class="fixed w-full h-dvh inset-0 z-40 bg-black/50 backdrop-blur-sm"
 	/>
 	<Dialog.Content
-		class="fixed flex left-1/2 top-1/2 z-50 w-full max-w-[67rem] -translate-x-1/2 -translate-y-1/2 bg-white"
+		class="fixed flex-col lg:flex-row overflow-y-auto max-h-[86dvh] rounded-lg lg:rounded-none flex left-1/2 top-1/2 z-50 w-full max-w-[90%] xl:max-w-[67rem] -translate-x-1/2 -translate-y-1/2 bg-white"
 	>
 		<!-- modal left -->
 		<ModalLeftBanner />

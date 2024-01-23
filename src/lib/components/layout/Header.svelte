@@ -1,6 +1,6 @@
 <script>
-	import Button from '$lib/ui/Button.svelte';
 	import logo from '$lib/assets/images/global/logo.svg';
+	import ModalTrigger from './modal-unlock/ModalTrigger.svelte';
 </script>
 
 <header class="h-[4.5rem] flex justify-center sticky top-0 z-30 border-[#E3E3E3] border-b bg-white">
@@ -10,6 +10,6 @@
 				<img src={logo} alt="logo" />
 			</figure>
 		</a>
-		<Button isSM />
+		<ModalTrigger isSM />
 	</div>
 </header>

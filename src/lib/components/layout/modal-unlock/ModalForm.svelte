@@ -1,15 +1,16 @@
 <script lang="ts">
 	import { Dialog, Label, Button, Checkbox } from 'bits-ui';
 	import { X, Check, Minus } from 'phosphor-svelte';
-	import { Root } from 'postcss';
+	import ModalFormMobileTop from './ModalFormMobileTop.svelte';
 	let myChecked = true;
 </script>
 
+<ModalFormMobileTop />
 <div class="p-6 lg:p-12 grow">
-	<div class="flex justify-end"><Dialog.Close><X /></Dialog.Close></div>
+	<div class="hidden lg:flex justify-end"><Dialog.Close><X /></Dialog.Close></div>
 	<form name="support_team" class="flex flex-col gap-y-3 lg:gap-y-4">
 		<!-- name -->
-		<div class="flex flex-col gap-y-4 gap-x-4 lg:grid lg:grid-cols-2">
+		<div class="flex flex-col gap-y-4 gap-x-4 xl:grid xl:grid-cols-2">
 			<!-- first name -->
 			<div class="flex flex-col gap-y-1">
 				<Label.Root id="firstName-label" for="firstName" class="text-sm">First Name*</Label.Root>

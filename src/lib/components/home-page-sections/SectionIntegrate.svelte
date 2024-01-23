@@ -1,8 +1,8 @@
 <script lang="ts">
 	import Cards from '$lib/components/home-page-sections/section-integrations/Cards.svelte';
 	import Badge from '$lib/ui/Badge.svelte';
-	import Button from '$lib/ui/Button.svelte';
 	import Typography40 from '$lib/ui/Typography40.svelte';
+	import ModalTrigger from '$lib/components/layout/modal-unlock/ModalTrigger.svelte';
 </script>
 
 <section
@@ -21,7 +21,7 @@
 					Amplify the value of your existing tools by integrating withZen for a seamless experience
 				</p>
 			</div>
-			<Button isWhite text="Learn more" />
+			<ModalTrigger isWhite text="Learn more" />
 		</div>
 		<!-- cards -->
 		<Cards />

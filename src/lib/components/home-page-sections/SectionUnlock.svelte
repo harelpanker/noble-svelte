@@ -1,5 +1,5 @@
 <script>
-	import Button from '$lib/ui/Button.svelte';
+	import ModalTrigger from '../layout/modal-unlock/ModalTrigger.svelte';
 	import ListItem from './section-unlock/ListItem.svelte';
 
 	import icon1 from '$lib/assets/images/home-page/icons/icon-1.svg';
@@ -42,7 +42,7 @@
 		</ul>
 
 		<div class="flex justify-center lg:justify-start">
-			<Button isWhite text="Learn more" />
+			<ModalTrigger isWhite text="Learn more" />
 		</div>
 	</div>
 </section>
