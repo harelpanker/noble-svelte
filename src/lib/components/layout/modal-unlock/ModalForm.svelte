@@ -3,7 +3,7 @@
 	import { X, Check, Minus } from 'phosphor-svelte';
 	import ModalFormMobileTop from './ModalFormMobileTop.svelte';
 	const thankYouPath = 'https://golden-capybara-467f34.netlify.app/thank-you';
-	const email = 'harelpanker@protonmail.com';
+	const email = 'harelpanker@gmail.com';
 	let myChecked = true;
 </script>
 
