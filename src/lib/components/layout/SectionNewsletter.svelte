@@ -1,7 +1,4 @@
 <script lang="ts">
-	const email = 'harelpanker@gmail.com';
-	const thankYouPath = 'https://golden-capybara-467f34.netlify.app/thank-you';
-
 	let placeholder = 'Your email address';
 
 	let screenWidth: number;
@@ -18,10 +15,14 @@
 	<div class="container max-w-[46rem] mx-auto">
 		<form
 			class="w-full flex gap-x-4 flex-col md:flex-row gap-y-4"
-			action={`https://formsubmit.co/${email}`}
+			action="https://formsubmit.co/harelpanker@gmail.com"
 			method="POST"
 		>
-			<input type="hidden" name="_next" value={thankYouPath} />
+			<input
+				type="hidden"
+				name="_next"
+				value="https://golden-capybara-467f34.netlify.app/thank-you"
+			/>
 			<input type="hidden" name="form-name" value="subscribe" />
 			<input type="hidden" name="_subject" value="New submission!" />
 			<input type="hidden" name="_captcha" value="false" />

@@ -2,8 +2,6 @@
 	import { Dialog, Label, Button, Checkbox } from 'bits-ui';
 	import { X, Check, Minus } from 'phosphor-svelte';
 	import ModalFormMobileTop from './ModalFormMobileTop.svelte';
-	const thankYouPath = 'https://golden-capybara-467f34.netlify.app/thank-you';
-	const email = 'harelpanker@gmail.com';
 	let myChecked = true;
 </script>
 
@@ -11,12 +9,16 @@
 <div class="p-6 lg:p-12 grow">
 	<div class="hidden lg:flex justify-end"><Dialog.Close><X /></Dialog.Close></div>
 	<form
-		class="flex flex-col gap-y-3 lg:gap-y-4"
-		action={`https://formsubmit.co/${email}`}
+		action="https://formsubmit.co/harelpanker@gmail.com"
 		method="POST"
+		class="flex flex-col gap-y-3 lg:gap-y-4"
 	>
 		<!-- form submit inputs start -->
-		<input type="hidden" name="_next" value={thankYouPath} />
+		<input
+			type="hidden"
+			name="_next"
+			value="https://golden-capybara-467f34.netlify.app/thank-you"
+		/>
 		<input type="hidden" name="form-name" value="contact" />
 		<input type="hidden" name="_subject" value="New submission!" />
 		<input type="hidden" name="_captcha" value="false" />
