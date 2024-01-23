@@ -22,8 +22,8 @@
 			</div>
 			<div class="flex max-w-xl flex-col justify-between lg:max-w-full gap-y-10 items-start">
 				<p class="text-xl font-polysans lg:text-[2.5rem] lg:leading-normal">
-					Zen aggregates critical data from all the tools your support team uses like Salesforce,
-					Slack & Confluence, supercharging your Zendesk into a highly efficient hub for your
+					kojo aggregates critical data from all the tools your support team uses like Salesforce,
+					Slack & Confluence, supercharging your kojodesk into a highly efficient hub for your
 					support team.
 				</p>
 				<div class="hidden lg:block">

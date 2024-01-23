@@ -18,7 +18,7 @@
 					know and love
 				</Typography40>
 				<p class="lg:text-xl">
-					Amplify the value of your existing tools by integrating withZen for a seamless experience
+					Amplify the value of your existing tools by integrating withkojo for a seamless experience
 				</p>
 			</div>
 			<ModalTrigger isWhite text="Learn more" />

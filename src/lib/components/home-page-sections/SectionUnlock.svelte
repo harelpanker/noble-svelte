@@ -15,19 +15,19 @@
 		<h2
 			class="text-center text-[2.5rem] leading-[1.2] font-polysans lg:font-semibold lg:leading-[1.4] lg:text-[4rem]"
 		>
-			<span class="lg:block">Unlock the Full Potential of </span>Your Support Team with Zen
+			<span class="lg:block">Unlock the Full Potential of </span>Your Support Team with kojo
 		</h2>
 
 		<ul class="flex flex-col gap-y-10 lg:grid lg:grid-cols-2 lg:gap-x-[4.36rem]">
 			<ListItem
 				icon={icon1}
 				title="Empower Your Support Team"
-				text="Zen is designed to transform your support engineers into powerhouse problem-solvers, accelerating issue resolution and elevating the quality of customer support."
+				text="kojo is designed to transform your support engineers into powerhouse problem-solvers, accelerating issue resolution and elevating the quality of customer support."
 			/>
 			<ListItem
 				icon={icon2}
 				title="Accelerated Ticket Resolution"
-				text="With instant access to integrated data within Zendesk, your team can resolve tickets more swiftly and effectively."
+				text="With instant access to integrated data within kojodesk, your team can resolve tickets more swiftly and effectively."
 			/>
 			<ListItem
 				icon={icon3}

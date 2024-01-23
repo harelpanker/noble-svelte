@@ -12,7 +12,7 @@
 			<h2 class="font-polysans font-semibold text-2xl">Thank you!</h2>
 			<p>
 				Your email has been received. We'll be in touch shortly to schedule your demo.<br />Get
-				ready to elevate your skills with zen!
+				ready to elevate your skills with kojo!
 			</p>
 		</div>
 		<Dialog.Close

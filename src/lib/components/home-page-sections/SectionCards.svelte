@@ -13,15 +13,15 @@
 	<Card
 		badgeText="Integrate"
 		title="Data Aggregation"
-		text="Easily define the data points crucial to your operations, Zen aggregates data from a broad spectrum of internal systems, bringing essential information to your fingertips."
+		text="Easily define the data points crucial to your operations, kojo aggregates data from a broad spectrum of internal systems, bringing essential information to your fingertips."
 		imageDesktop={desktop1}
 		imageMobile={mobile1}
 		bgColor="#DB7415"
 	/>
 	<Card
 		badgeText="Customize"
-		title="Pre-Built Modules for Zen Agent View"
-		text="Zen enriches the Zendesk experience with an array of pre-built modules  Our intuitive Zen admin panel allows support teams to handpick from a diverse library of  convert resolved issues into informative knowledge center articles."
+		title="Pre-Built Modules for kojo Agent View"
+		text="kojo enriches the kojodesk experience with an array of pre-built modules  Our intuitive kojo admin panel allows support teams to handpick from a diverse library of  convert resolved issues into informative knowledge center articles."
 		imageDesktop={desktop2}
 		imageMobile={mobile2}
 		bgColor="#E3A916"
@@ -29,7 +29,7 @@
 	<Card
 		badgeText="Resolve"
 		title="Resolution & Escalation Management"
-		text="Zen streamlines post-investigation actions, enabling swift response creation, efficient issue escalation, and the conversion of resolved tickets into valuable knowledge base articles, enhancing your team's future performance."
+		text="kojo streamlines post-investigation actions, enabling swift response creation, efficient issue escalation, and the conversion of resolved tickets into valuable knowledge base articles, enhancing your team's future performance."
 		imageDesktop={desktop3}
 		imageMobile={mobile3}
 		bgColor="#6FA23C"

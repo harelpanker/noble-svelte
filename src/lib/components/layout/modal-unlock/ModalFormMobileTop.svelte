@@ -8,6 +8,6 @@
 		<Dialog.Close><X /></Dialog.Close>
 	</div>
 	<h2 class="text-center text-[#F9D2CB] font-polysans text-2xl">
-		<span class="lg:block">Unlock the Full Potential of </span>Your Support Team with Zen
+		<span class="lg:block">Unlock the Full Potential of </span>Your Support Team with kojo
 	</h2>
 </div>
